@@ -1,5 +1,6 @@
-O seguinte projeto utilizando GraphQL tem como objetivo ilustrar o respectivo requisito funcional:
+O seguinte projeto terá o objetivo de ilustrar e elucidar o funcionamento da linguagem de consulta GraphQL, demonstrando o respectivo requisito funcional:
 
+```
 AGRICULTOR
 a) Descrição da Entidade:
 i. Os dados poderão ser preenchidos pelos clientes e validados por um funcionário do
@@ -15,5 +16,7 @@ b) Rótulos dos campos de entrada:
  Responsável pela Validação: (Preenchido automático pelo sistema - buscar em uma tabela o Usuário responsável pela validação dos dados)
  Data da Validação: (Preenchimento automático pelo sistema - dd/mm/aaaa)
  Data de Inclusão: (Preenchimento automático pelo sistema - dd/mm/aaaa)
+```
 
 A aplicação utilizará um back-end construido em Nodejs.
+A aplicação utilizará um front-end construido em HTML, bootstrap e jQuery. 
