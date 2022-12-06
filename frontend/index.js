@@ -108,7 +108,7 @@ $(function () {
         registro.Responsavel = Responsavel
         registro.Validacao = Validacao
         registro.Inclusao = Inclusao
-        alert(_id)
+
         if(!_id || _id == "0"){
             registro.ID = dados.length + 1
             dados.push(registro)
