@@ -29,10 +29,22 @@ function EditaRegistro(id){
             $("#txtEscolaridade").val(item.Escolaridade)
             $("#txtCadPro").val(item.CadPro)
             $("#txtResponsavel").val(item.Responsavel)
-            $("#txtValidacao").val(item.Validacao.substr(6,4) + "-" + item.Validacao.substr(3,2) + "-" + item.Validacao.substr(0,2))
+            //$("#txtValidacao").val(item.Validacao.substr(6,4) + "-" + item.Validacao.substr(3,2) + "-" + item.Validacao.substr(0,2))
+            $("#txtValidacao").val("2022-12-07")
             $("#txtInclusao").val(item.Inclusao.substr(6,4) + "-" + item.Inclusao.substr(3,2) + "-" + item.Inclusao.substr(0,2))
         }
     })
+
+}
+
+function NovoRegistro(){
+
+    $("#modalRegistro").modal("show")
+
+
+    $("#txtValidacao").val("2022-12-07")
+    $("#txtInclusao").val("2022-12-07")
+
 
 }
 
@@ -83,6 +95,9 @@ $(function () {
     if (dados) {
         PopulaTabela();
     }
+
+    $("#txtValidacao").val("2022-12-07")
+    $("#txtInclusao").val("2022-12-07")
 
 
     $("#btnSalvar").click(function () {
@@ -137,8 +152,8 @@ $(function () {
         $("#txtEscolaridade").val("")
         $("#txtCadPro").val("")
         $("#txtResponsavel").val("")
-        $("#txtValidacao").val("")
-        $("#txtInclusao").val("")
+        $("#txtValidacao").val("2022-12-07")
+        $("#txtInclusao").val("2022-12-07")
 
         PopulaTabela()
 

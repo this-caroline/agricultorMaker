@@ -3,3 +3,8 @@
     color: black;
 }
 
+.container-fluid{
+    max-width: 95%;
+    margin-top: 50px;
+}
+
